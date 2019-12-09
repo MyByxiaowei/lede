@@ -99,8 +99,8 @@ jobs:
 
           # 编译x64固件:
           cat >> .config <<EOF
-           CONFIG_TARGET_Qualcomm Atheros IPQ40XX=y
-          CONFIG_TARGET_P&W R619AC)=y
+            CONFIG_TARGET_ipq40xx=y
+            CONFIG_TARGET_ipq40xx_DEVICE_p2w_r619ac=y
           # CONFIG_TARGET_x86_64_Generic=y
           EOF
 
